@@ -12,8 +12,7 @@ public class AddToCartTests extends BaseTests {
     @Test
     public void add_to_cart_test()
     {
-        login.setUsername("standard_user");
-        login.setPassword();
+
         InventoryPage inventory = login.clickLogin();
 
         //add tshirt and jacket to cart.

@@ -12,8 +12,7 @@ public class CartTest extends BaseTests {
     @Test
     public void test_items_count()
     {
-        login.setUsername("standard_user");
-        login.setPassword();
+
         InventoryPage inventory = login.clickLogin();
         inventory.click_add_to_cart();
 
@@ -23,7 +22,7 @@ public class CartTest extends BaseTests {
         assertEquals(cartPage.get_items_count_in_cart(),2,"");
 
         cartPage.click_cont_shopping();
-        
+
     }
 
 

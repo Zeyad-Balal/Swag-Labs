@@ -6,11 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b21e0ef4-632d-4afd-af6e-ebdd4e8bb22d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/LogoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/LogoutTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cart/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/AddToCartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/AddToCartTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/inventory/LogoutTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inventory/LogoutTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cart/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cart/CartTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/inventory/AddToCartTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inventory/AddToCartTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/LoginPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +56,7 @@
       <recent name="C:\Users\hp\Desktop\Test\Swag-Labs\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CartTest.test_items_count">
+  <component name="RunManager" selected="TestNG.LoginPageTests.standardUserTest">
     <configuration name="AddToCartTests.add_to_cart_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swag-Labs" />
       <extension name="coverage">
@@ -146,10 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginPageTests.standardUserTest" />
         <item itemvalue="TestNG.CartTest.test_items_count" />
         <item itemvalue="TestNG.AddToCartTests.add_to_cart_test" />
         <item itemvalue="TestNG.LogoutTests.logout_test" />
-        <item itemvalue="TestNG.LoginPageTests.standardUserTest" />
         <item itemvalue="TestNG.LogoutTests" />
       </list>
     </recent_temporary>
