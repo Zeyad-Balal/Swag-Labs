@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b21e0ef4-632d-4afd-af6e-ebdd4e8bb22d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/login/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/login/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/LoginPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,9 +109,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogoutTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag-Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory" />
+      <option name="MAIN_CLASS_NAME" value="inventory.LogoutTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTests.logout_test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag-Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory" />
+      <option name="MAIN_CLASS_NAME" value="inventory.LogoutTests" />
+      <option name="METHOD_NAME" value="logout_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginPageTests.standardUserTest" />
+        <item itemvalue="TestNG.LogoutTests" />
+        <item itemvalue="TestNG.LogoutTests.logout_test" />
         <item itemvalue="TestNG.LoginPageTests.testValidLogin" />
         <item itemvalue="TestNG.LoginPageTests.testStandardUser" />
       </list>
