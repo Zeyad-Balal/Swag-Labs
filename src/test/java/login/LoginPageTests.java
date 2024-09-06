@@ -14,6 +14,7 @@ public class LoginPageTests extends BaseTests{
         login.setPassword();
         login.clickLogin();
 
+
         //Assert that login done and the driver redirected to next page (invenotry).
         assertEquals(driver.getCurrentUrl(),"https://www.saucedemo.com/inventory.html","test failed");
 
