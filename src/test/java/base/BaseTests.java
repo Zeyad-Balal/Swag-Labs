@@ -1,21 +1,22 @@
 package base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pages.HomePage;
+import login.LoginPage;
+
 import org.testng.annotations.*;
 
 public class BaseTests {
     private WebDriver driver;
-    protected HomePage homePage;
+    protected LoginPage login;
 
-    @BeforeClass
+   @BeforeClass
     public void setUp()
     {
         System.setProperty("webdriver.gecko.driver","resources/geckodriver.exe");
         driver = new FirefoxDriver();
-        driver.get("https://the-internet.herokuapp.com");
+        driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
-        homePage = new HomePage(driver);
+        login = new LoginPage(driver);
 
     }
 }
