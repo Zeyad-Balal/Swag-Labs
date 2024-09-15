@@ -4,8 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.List;
-
 public class InventoryPage {
     private WebDriver driver;
     private By side_menu_button = By.id("react-burger-menu-btn");
@@ -30,12 +28,13 @@ public class InventoryPage {
     public void click_logout_button()
     {driver.findElement(logout_button).click();}
 
+
+
     public void click_add_to_cart()
     {
 
         driver.findElement(sauce_labs_bolt_tshirt).click();
         driver.findElement(sauce_labs_fleece_jacket).click();
-        //driver.findElement(sauce_labs_back).click();
 
     }
 
@@ -46,17 +45,12 @@ public class InventoryPage {
     }
 
 
-
-
-
     // on going later...
     public String button_name_converter(String button_name)
     {
         String new_button_name = "";
         return new_button_name;
     }
-
-
 
 
 }

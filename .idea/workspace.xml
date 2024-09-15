@@ -6,14 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b21e0ef4-632d-4afd-af6e-ebdd4e8bb22d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cart/CartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/inventory/AddToCartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/AddToCartTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/cart/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cart/CartTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/inventory/AddToCartTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inventory/AddToCartTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/LoginPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/cart/CartTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/CartPage.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2leXM9QpUAANbo3pvg61ObbTE0e" />
   <component name="ProjectLevelVcsManager">
@@ -48,6 +54,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hp\Desktop\Test\Swag-Labs\target" />
@@ -56,8 +65,8 @@
       <recent name="C:\Users\hp\Desktop\Test\Swag-Labs\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTests.standardUserTest">
-    <configuration name="AddToCartTests.add_to_cart_test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CartTest.test_items_count">
+    <configuration name="AddToCartTests.get_josn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swag-Labs" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +76,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="inventory" />
       <option name="MAIN_CLASS_NAME" value="inventory.AddToCartTests" />
-      <option name="METHOD_NAME" value="add_to_cart_test" />
+      <option name="METHOD_NAME" value="get_josn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddToCartTests.printInventory" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag-Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory" />
+      <option name="MAIN_CLASS_NAME" value="inventory.AddToCartTests" />
+      <option name="METHOD_NAME" value="printInventory" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartTest.check_selected_items_names" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag-Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cart" />
+      <option name="MAIN_CLASS_NAME" value="cart.CartTest" />
+      <option name="METHOD_NAME" value="check_selected_items_names" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,48 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swag-Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inventory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="inventory" />
-      <option name="MAIN_CLASS_NAME" value="inventory.LogoutTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogoutTests.logout_test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swag-Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inventory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="inventory" />
-      <option name="MAIN_CLASS_NAME" value="inventory.LogoutTests" />
-      <option name="METHOD_NAME" value="logout_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginPageTests.standardUserTest" />
         <item itemvalue="TestNG.CartTest.test_items_count" />
-        <item itemvalue="TestNG.AddToCartTests.add_to_cart_test" />
-        <item itemvalue="TestNG.LogoutTests.logout_test" />
-        <item itemvalue="TestNG.LogoutTests" />
+        <item itemvalue="TestNG.CartTest.check_selected_items_names" />
+        <item itemvalue="TestNG.LoginPageTests.standardUserTest" />
+        <item itemvalue="TestNG.AddToCartTests.printInventory" />
+        <item itemvalue="TestNG.AddToCartTests.get_josn" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +187,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
